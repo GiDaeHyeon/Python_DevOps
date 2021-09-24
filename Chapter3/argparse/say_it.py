@@ -1,0 +1,1 @@
+def say_it():    greeting = 'Hello'    target = 'Von'    message = f'{greeting} {target}!'    print(message)# say_it()if __name__ == '__main__':    say_it()

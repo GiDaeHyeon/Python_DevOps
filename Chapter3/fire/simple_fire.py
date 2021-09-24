@@ -1,0 +1,1 @@
+import firedef greet(greeting='Hello',          name='Von'):    print(f"{greeting} {name}!")if __name__ == '__main__':    fire.Fire(greet)
