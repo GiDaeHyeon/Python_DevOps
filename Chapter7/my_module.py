@@ -1,0 +1,1 @@
+def string2bool(text: str) -> bool:    true_values = ['yes', '1', 'Yes', 'True', 'TRUE', 'true']    if text in true_values:        return True    else:        return False

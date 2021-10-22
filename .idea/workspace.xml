@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71417bec-3bb3-4b4f-9a12-662268b0435c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter5/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/hello_world/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/hello_world/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/log_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/logging_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/logging_deep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/web.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/my_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/my_module_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/testinfra/check_os.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter6/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter7/basic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -53,7 +67,9 @@
       <updated>1632481684907</updated>
       <workItem from="1632481688063" duration="6011000" />
       <workItem from="1632567400057" duration="599000" />
-      <workItem from="1633086303168" duration="5185000" />
+      <workItem from="1633086303168" duration="6401000" />
+      <workItem from="1633917225388" duration="8646000" />
+      <workItem from="1634899832928" duration="3005000" />
     </task>
     <servers />
   </component>
